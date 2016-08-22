@@ -8,16 +8,27 @@ What value do you think it offers?
 the stating area keeps the files which will be part of the repo after 
 the next commit. you can seperate commits by adding only the files you want
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+How can you use the staging area to make sure you have one commit per logical change?
+
+using git diff, git diff --staged shows all the differences betweenn the different areas. 
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+working on special features which might not be part of the original game 
+
 How do the diagrams help you visualize the branch structure?
+
+you can see which commits are reachable and which are not. it also helps when you try to merge branches together.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+one branch which contains both merged branches. the new branch name is the name of the branch which is checkout during merging. 
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+automatic: faster, easy to do, git still watches for conflicts
+manual: slower, sometimes it has to be done like that in order to fix conflicts logically 
+
